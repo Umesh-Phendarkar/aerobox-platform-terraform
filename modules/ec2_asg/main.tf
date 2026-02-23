@@ -31,7 +31,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>AeroBox Working 🚀</h1>"
+    return "<h1>AeroBox Working</h1>"
 
 app.run(host="0.0.0.0", port=3000)
 EOT
